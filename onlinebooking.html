@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online booking</title>
+</head>
+<style>
+    body{
+        background-image: url(/onlinebooking.jpg);
+        background-size: cover;
+    }
+</style>
+<body>
+    <center><h1>Online Booking</h1></center>
+    <form action="/action_page.php" method="get">
+        <label for="browser">Choose your Restaurant location from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Bangalore">
+                <option value="Hyderabad">
+                <option value="Jalandhar">
+                <option value="Nagpur">
+                <option value="Tirupati">
+        </datalist>
+      </form>
+      <label for="cars">Choose your Food:</label>
+
+<select id="cars">
+  <option></option>
+  <option value="Fine Dining">Fine Dining</option>
+  <option value="Fast Casual">Fast Casual</option>
+  <option value="Fast Food">Fast Food</option>
+  <option value="Chicken">Chicken items</option>
+  
+</select>
+<div id="m1" >
+<h1>Choose your table</h1>
+<img src="table.jpg" width="0px" height="0px">
+<label>1
+  <input type="checkbox" class="larger">
+</label>
+<label>2
+  <input type="checkbox" class="larger">
+</label>
+<label>3
+  <input type="checkbox" class="larger">
+  </label>
+<label>4
+  <input type="checkbox" class="larger">
+</label>
+<label>5
+    <input type="checkbox" class="larger">
+  </label>
+  <br><br>
+  <label>6
+    <input type="checkbox" class="larger">
+  </label>
+  <label>7
+    <input type="checkbox" class="larger">
+  </label>
+  <label>8
+    <input type="checkbox" class="larger">
+   
+  </label>
+  <label>9
+    <input type="checkbox" class="larger">
+  </label>
+  <label>10
+      <input type="checkbox" class="larger">
+    </label>
+  </div>
+    <br><br>
+<form action="/action_page.php">
+  <label for="Select">Select The Date:</label>
+  <input type="date" id="Select" name="Select">
+</form>
+<div class="custom-select" width="400px">
+  <h4>Select the person</h4>
+  <select>
+    <option value="0">Select People:</option>
+    <option value="1">1 People</option>
+    <option value="2">2 People</option>
+    <option value="3">3 People</option>
+    <option value="4">4 People</option>
+    <option value="5">5 People</option>
+    <option value="6">6 People</option>
+    <option value="7">7 People</option>
+    <option value="8">8 People</option>
+    <option value="9">9 People</option>
+    <option value="10">10 People</option>
+    <option value="11">11 People</option>
+    <option value="12">12 People</option>
+  </select>
+  <button type="button" onclick="alert('Successfully booked')" style="color: blue;">SUBMIT</button>
+</div>
+</body>
+</html>

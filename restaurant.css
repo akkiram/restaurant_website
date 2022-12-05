@@ -1,0 +1,45 @@
+body{
+    background-image: url(/foodcoholic_banner4.jpg);
+    background-size: cover;
+}
+p{
+    font-style: bold;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-flex-row{
+    display: inline-block;
+}
+header {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+ .navbar ul{
+    overflow: auto;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+header{
+    font-size: large blue;
+}
+li{
+    color: aqua;
+}
+button{
+    border: 2px solid blue;
+}
